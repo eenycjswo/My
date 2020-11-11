@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="25dp"
+            android:text="유튜브 보러 오세요"
+            android:paddingTop="40dp"
+            android:paddingLeft="120dp"
+             android:textColor="#FFEB3B"
+            android:layout_height="100dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#FFEB3B"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+    </FrameLayout>
+
+
+</LinearLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="100dp"
+            android:background="#CA1212" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:background="#FFEB3B"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:background="#CA1212"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

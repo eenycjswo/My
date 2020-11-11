@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#FF0101"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/viwe2"
+        android:layout_width="50dp"
+        android:layout_toRightOf="@+id/view1"
+        android:layout_centerVertical="true"
+        android:layout_height="50dp"
+        android:background="#2FFF00"/>
+    <TextView
+        android:id="@+id/viwe3"
+        android:layout_width="50dp"
+        android:layout_above="@+id/view1"
+        android:layout_height="50dp"
+        android:background="#000CFF"/>
+    <TextView
+        android:id="@+id/viwe4"
+        android:layout_width="50dp"
+        android:layout_below="@+id/view1"
+        android:layout_height="50dp"
+        android:background="#00EFAB"/>
+    <TextView
+        android:id="@+id/viwe5"
+        android:layout_width="50dp"
+
+        android:layout_toLeftOf="@+id/view1"
+        android:layout_centerInParent="true"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"/>
+    <TextView
+        android:id="@+id/viwe6"
+        android:layout_width="50dp"
+        android:layout_above="@+id/view1"
+        android:layout_toLeftOf="@+id/view1"
+        android:layout_height="50dp"
+        android:background="#156A02"/>
+
+</RelativeLayout>
